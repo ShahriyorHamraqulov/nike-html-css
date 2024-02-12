@@ -1,0 +1,78 @@
+@import url(font.css);
+
+
+
+.footer {
+    background: #322E41;
+    padding-top: 31px;
+    padding-bottom: 67px;
+}
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+}
+
+.footer-left input {
+    padding: 8px 0 8px 8px;
+    border-radius: 6px;
+    background: #FFF;
+    color: #9B9B9B;
+    font-size: 18px;
+    font-style: 18px;
+    line-height: 18px;
+}
+
+.footer-left textarea {
+    border-radius: 6px;
+    background: #FFF;
+    color: #9B9B9B;
+    font-size: 18px;
+    line-height: 18px;
+    height: 86px;
+    padding: 8px 0 0 8px;
+    resize: none;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.footer-btn {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    border-radius: 6px;
+    background: #544294;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.footer-right {
+    display: flex;
+
+}
+
+.footer-right__link {
+    color: #FFF;
+font-size: 16px;
+line-height: 19px;
+margin-bottom: 10px;
+display: block;
+transition: all 500ms       ;
+}
+
+.footer-right__link:hover {
+    color: #D47300;
+}
+
+.second-list {
+    margin-left: 68px;
+}

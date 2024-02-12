@@ -1,0 +1,65 @@
+@import url(../style/font.css);
+
+.main {
+    background: #EBEBEB;
+
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+transform: translateY(-40px);
+}
+
+.main-left {
+    max-width: 540px;
+    width: 100%;
+    border-radius: 6px;
+    background: #FFF;
+    padding: 15px;
+    /* margin-top: -40px; */
+}
+
+.main-left__img {
+    width: 100%;
+
+}
+
+.main-left__title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2c2a2a;
+    font-family: 'RB';
+    font-size: 22px;
+    line-height: 26px;
+    margin: 12px 0;
+}
+
+.main-left__text {
+    color: #9B9B9B;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.main-right__item {
+    max-width: 255px;
+    width: 100%;
+    border-radius: 6px;
+    background: #FFF;
+    text-align: center;
+    /* text-align: left;                */
+    padding: 12px 18px 18px 18px;
+}
+
+.main-right {
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin-top: -40px; */
+}
+
+.item-1 {
+    margin-bottom: 30px;
+}
